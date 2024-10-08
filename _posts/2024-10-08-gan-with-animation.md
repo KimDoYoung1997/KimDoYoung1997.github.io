@@ -4,6 +4,7 @@ author: "김도영"
 date: "10/08/2024"
 categories: DeepLearning
 tag: [pytorch, GAN, DeepLearning] 
+toc: true
 
 ---
 # 1. 강의영상 
