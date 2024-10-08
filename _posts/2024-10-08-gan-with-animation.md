@@ -1,5 +1,5 @@
 ---
-title: "08wk-1,2: 생성모형 -- Generative Adversarial Network (GAN)"
+title: "Category"
 author: "김도영"
 date: "10/08/2024"
 categories:
