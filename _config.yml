@@ -132,7 +132,6 @@ author:
     - label: "Blog"
       icon: "fas fa-fw fa-link"
       url: "https://blog.naver.com/ehdud4520"
-<FontAwesomeIcon icon="fa-brands fa-youtube" />
 # Site Footer
 footer:
   links:
