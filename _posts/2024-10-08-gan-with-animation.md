@@ -1,5 +1,5 @@
 ---
-title: "Category"
+title: "Generative Adversarial Networks code review"
 author: "김도영"
 date: "10/08/2024"
 categories: DeepLearning
