@@ -115,8 +115,8 @@ analytics:
 author:
   name             : "Doyoung Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **Robotic Reinforcement** person."
-  location         : "Seoul"
+  bio              : "I am a person of **Reinforcement Learning**"
+  location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
