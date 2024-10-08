@@ -7,13 +7,13 @@ tag: [pytorch, GAN, DeepLearning]
 toc: true
 
 ---
-# 1. 강의영상 
+# 1. Reference Video
 
 다음 강의영상을 참고하여 포스팅을 작성했습니다. 교수님께 정말 감사합니다.
 
 {{<video https://youtu.be/playlist?list=PLQqh36zP38-xfh-AQQI0B_GONOjgj9DCi&si=uWImDc1bYBoNqCB_ >}}
 
-# 2. Imports
+# 2. GAN with CNN descriptor
 
 1. 간단한 CNN 을 Descriptor 로 한 GAN모델 with cuda
 
@@ -15805,7 +15805,7 @@ plt.imshow(X_real[[0]].reshape(28,28).to("cpu").detach())   # real image
     
 
 
-2. DNN 을 Descriptor 로 한 GAN모델 with cuda
+# 2. DNN 을 Descriptor 로 한 GAN모델 with cuda
 
 
 ```python
