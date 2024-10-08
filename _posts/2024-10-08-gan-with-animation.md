@@ -7,6 +7,9 @@ tag: [pytorch, GAN, DeepLearning]
 toc: true
 
 ---
+<a href="https://colab.research.google.com/drive/1M1LNPwyx601KomJYklPV6b0B39G9jhi-?usp=sharing
+"><img src="https://colab.research.google.com/assets/colab-badge.svg" style="text-align: left"></a>
+
 # 1. Reference Video
 
 다음 강의영상을 참고하여 포스팅을 작성했습니다. 교수님께 정말 감사합니다.
