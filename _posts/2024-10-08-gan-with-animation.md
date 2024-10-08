@@ -15786,8 +15786,7 @@ plt.imshow(X_fake.to("cpu").data.reshape(28,28),cmap="gray")    # fake image
         
 
 
-# 2. DNN 을 Descriptor 로 한 GAN모델 with cuda
-
+# 2. GAN with DNN descriptor
 
 ```python
 # DNN 을 Descriptor 로 한 GAN모델 with cuda
