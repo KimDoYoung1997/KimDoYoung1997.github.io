@@ -7,9 +7,7 @@ tag: [pytorch, GAN, DeepLearning]
 toc: true
 author_profile: false
 sidebar:
-    nav: "docs"
-
-
+    nav: "docs
 ---
 <a href="https://colab.research.google.com/drive/1M1LNPwyx601KomJYklPV6b0B39G9jhi-?usp=sharing
 "><img src="https://colab.research.google.com/assets/colab-badge.svg" style="text-align: left"></a>
