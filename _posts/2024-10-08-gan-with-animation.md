@@ -15777,32 +15777,10 @@ plt.imshow(X_fake.to("cpu").data.reshape(28,28),cmap="gray")    # fake image
 
 
 
-    <matplotlib.image.AxesImage at 0x7a238dcce5e0>
 
 
 
-
-    
-![png](08wk-1-2_blog_files/08wk-1-2_blog_7_1.png)
-    
-
-
-
-```python
-plt.imshow(X_real[[0]].reshape(28,28).to("cpu").detach())   # real image
-```
-
-
-
-
-    <matplotlib.image.AxesImage at 0x7a22981748b0>
-
-
-
-
-    
-![png](08wk-1-2_blog_files/08wk-1-2_blog_8_1.png)
-    
+        
 
 
 # 2. DNN 을 Descriptor 로 한 GAN모델 with cuda
@@ -29742,43 +29720,31 @@ plt.imshow(X_fake.to("cpu").data.reshape(28,28),cmap="gray")
 
 
 
-    <matplotlib.image.AxesImage at 0x7a22965fadf0>
 
 
 
 
     
-![png](08wk-1-2_blog_files/08wk-1-2_blog_11_1.png)
     
 
 
 
-```python
-plt.imshow(X_real[[0]].reshape(28,28).to("cpu").detach())
-```
 
 
 
 
-    <matplotlib.image.AxesImage at 0x7a2298078f10>
 
 
 
 
     
-![png](08wk-1-2_blog_files/08wk-1-2_blog_12_1.png)
     
 
 
 
-```python
-net_police(X_real[[320]]) , net_police(net_faker(Noise[10]))
-```
 
 
 
 
-    (tensor([[0.0085]], device='cuda:0', grad_fn=<SigmoidBackward0>),
-     tensor([[0.4959]], device='cuda:0', grad_fn=<SigmoidBackward0>))
 
 
