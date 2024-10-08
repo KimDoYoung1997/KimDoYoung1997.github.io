@@ -11,7 +11,10 @@ toc: true
 
 다음 강의영상을 참고하여 포스팅을 작성했습니다. 교수님께 정말 감사합니다.
 
-{{<video https://youtu.be/playlist?list=PLQqh36zP38-xfh-AQQI0B_GONOjgj9DCi&si=uWImDc1bYBoNqCB_ >}}
+<!-- {{<video https://youtu.be/playlist?list=PLQqh36zP38-xfh-AQQI0B_GONOjgj9DCi&si=uWImDc1bYBoNqCB_ >}} -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLQqh36zP38-xfh-AQQI0B_GONOjgj9DCi&si=uWImDc1bYBoNqCB_" frameborder="0" allowfullscreen></iframe>
+
 
 # 2. GAN with CNN descriptor
 
