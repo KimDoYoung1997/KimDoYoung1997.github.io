@@ -5,8 +5,8 @@ date: "10/08/2024"
 categories: DeepLearning
 tag: [pytorch, GAN, DeepLearning] 
 toc: true
-author_profile: false
-sidebar:
+author_profile: false # author profile 보이기/안 보이기
+sidebar:              # sidebar navigation 수정
     nav: "docs
 ---
 <a href="https://colab.research.google.com/drive/1M1LNPwyx601KomJYklPV6b0B39G9jhi-?usp=sharing
