@@ -4,14 +4,13 @@ title: "About"
 permalink: /about/
 ---
 
-<div style="text-align: center;">
-
+<!-- ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there~) -->
 ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there~&fontSize=80)
 
 ## Notice 🗒️
-**Welcome to my personal blog!**  
-Here you'll find insights into my journey through robotics, programming, and AI.  
-Feel free to explore my work and get in touch!
+> **Welcome to my personal blog!**  
+> Here you'll find insights into my journey through robotics, programming, and AI.  
+> Feel free to explore my work and get in touch!
 
 ---
 
@@ -24,13 +23,13 @@ Feel free to explore my work and get in touch!
 ---
 
 ### Programming Skills
-<p>
+<p style="text-align: left;">
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3766AB?style=for-the-badge&logo=Python&logoColor=white"/>
 </p>
 
 ### Frameworks
-<p>
+<p style="text-align: left;">
   <img src="https://img.shields.io/badge/ROS-123456?style=for-the-badge&logo=ROS&logoColor=white"/>
   <img src="https://img.shields.io/badge/ROS2-125656?style=for-the-badge&logo=ROS&logoColor=white"/>
   <img src="https://img.shields.io/badge/BehaviorTree-68A51C?style=for-the-badge&logo=BehaviorTree&logoColor=white"/>
@@ -41,11 +40,10 @@ Feel free to explore my work and get in touch!
 ### More about me
 <a href="https://blog.naver.com/ehdud4520" target="_blank"><img src="https://img.shields.io/badge/TechBlog-brightgreen?style=flat-square&logo=Naver&logoColor=white"/></a> 
 <a href="mailto:ehdud971119@gmail.com" target="_blank"><img src="https://img.shields.io/badge/ehdud971119@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white"/></a> 
-<a href="https://github.com/KimDoYoung1997/KimDoYoung1997/blob/main/CV/240617_%EA%B9%80%EB%8F%84%EC%98%81_CV.pdf" target="_blank"><img src="http://img.shields.io/badge/-CV-black?style=flat-square&logo=github"/></a>
-<a href="https://github.com/KimDoYoung1997/KimDoYoung1997" target="_blank"><img src="http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github"/></a>
+[![CV](http://img.shields.io/badge/-CV-black?style=flat-square&logo=github)](https://github.com/KimDoYoung1997/KimDoYoung1997/blob/main/CV/240617_%EA%B9%80%EB%8F%84%EC%98%81_CV.pdf)
+[![GitHub](http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/KimDoYoung1997/KimDoYoung1997)
+
 
 ---
 
 Thank you for visiting my page. Let's collaborate and explore the fascinating world of robotics and AI together!
-
-</div>
