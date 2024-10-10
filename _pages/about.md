@@ -4,8 +4,6 @@ title: "About"
 permalink: /about/
 ---
 
-<div style="text-align: center;">
-
 ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there~)
 
 ## Notice 🗒️
@@ -44,8 +42,7 @@ permalink: /about/
 [![CV](http://img.shields.io/badge/-CV-black?style=flat-square&logo=github)](https://github.com/KimDoYoung1997/KimDoYoung1997/blob/main/CV/240617_%EA%B9%80%EB%8F%84%EC%98%81_CV.pdf)
 [![GitHub](http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/KimDoYoung1997/KimDoYoung1997)
 
+
 ---
 
 Thank you for visiting my page. Let's collaborate and explore the fascinating world of robotics and AI together!
-
-</div>
