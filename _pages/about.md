@@ -16,7 +16,7 @@ permalink: /about/
 ### Working now
 - 🔖 Hello! I'm a developer with a strong passion for mobile robot navigation and a keen interest in SLAM and deep reinforcement learning.
 - 🎓 I graduated from JeonBuk National University, Department of Mechanical Design.
-- ✒️ Currently, I'm working at Korea Electronics Technology Institute, [KETI IRRC Mobile Robot.](https://github.com/KETI-MoRo)
+- ✒️ Currently, I'm working at Korea Electronics Technology Institute, [**KETI IRRC Mobile Robot**](https://github.com/KETI-MoRo)
 - 😄 I'm open to discussions on these subjects. Let's dive into robotics and autonomous systems together!
 
 ---
