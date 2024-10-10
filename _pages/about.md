@@ -39,7 +39,9 @@ permalink: /about/
 ### More about me
 <a href="https://blog.naver.com/ehdud4520" target="_blank"><img src="https://img.shields.io/badge/TechBlog-brightgreen?style=flat-square&logo=Naver&logoColor=white"/></a> 
 <a href="mailto:ehdud971119@gmail.com" target="_blank"><img src="https://img.shields.io/badge/ehdud971119@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white"/></a> 
-[![CV](http://img.shields.io/badge/-CV-black?style=flat-square&logo=github&link=https://davinci-ai.tistory.com/)](https://github.com/KimDoYoung1997/KimDoYoung1997/blob/main/CV/240617_%EA%B9%80%EB%8F%84%EC%98%81_CV.pdf)
+[![CV](http://img.shields.io/badge/-CV-black?style=flat-square&logo=github)](https://github.com/KimDoYoung1997/KimDoYoung1997/blob/main/CV/240617_%EA%B9%80%EB%8F%84%EC%98%81_CV.pdf)
+[![GitHub](http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/KimDoYoung1997/KimDoYoung1997)
+
 
 ---
 
