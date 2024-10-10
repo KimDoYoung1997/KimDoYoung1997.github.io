@@ -9,7 +9,6 @@ sidebar_main: true
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Doyoung%20Kim&fontAlignY=36&animation=fadeIn&fontAlign=50&fontSize=50" style="width: 100%;" alt="header">
 
-<!-- ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Doyoung%20Kim&fontAlignY=50&animation=fadeIn) -->
 
 ## Notice 🗒️
 > **Welcome to my personal blog!**  
