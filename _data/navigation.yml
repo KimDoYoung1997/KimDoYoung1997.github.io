@@ -11,7 +11,7 @@ main:
 docs:
   - title: "Contents"
     children: 
-      - title: "Category"
+      - title: "Study"
         url: /categories/
       - title: "Tag"
         url: /tags/
