@@ -29,9 +29,9 @@ permalink: /about/
 
 ### Frameworks
 <p style="text-align: left;">
-  <img src="https://img.shields.io/badge/ROS-123456?style=for-the-badge&logo=ROS&logoColor=white"/></a>&nbsp
-  <img src="https://img.shields.io/badge/ROS2-125656?style=for-the-badge&logo=ROS&logoColor=white"/></a>&nbsp
-  <img src="https://img.shields.io/badge/BehaviorTree-68A51C?style=for-the-badge&logo=BehaviorTree&logoColor=white"/></a>&nbsp
+  <img src="https://img.shields.io/badge/ROS-123456?style=for-the-badge&logo=ROS&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ROS2-125656?style=for-the-badge&logo=ROS&logoColor=white"/>
+  <img src="https://img.shields.io/badge/BehaviorTree-68A51C?style=for-the-badge&logo=BehaviorTree&logoColor=white"/>
 </p>
 
 ---
