@@ -3,8 +3,10 @@ layout: page
 title: "About"
 permalink: /about/
 ---
+<div style="text-align: center;">
 
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there~)
+<!-- ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there~) -->
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there~&fontSize=80)
 
 ## Notice 🗒️
 > **Welcome to my personal blog!**  
@@ -46,3 +48,4 @@ permalink: /about/
 ---
 
 Thank you for visiting my page. Let's collaborate and explore the fascinating world of robotics and AI together!
+</div>
