@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Doyoung%20Kim&fontAlignY=50&animation=fadeIn" style="width: 100%;" alt="header">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=Doyoung%20Kim&fontAlignY=50&animation=fadeIn" style="width: 100%;" alt="header">
 
 <!-- ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Doyoung%20Kim&fontAlignY=50&animation=fadeIn) -->
 
