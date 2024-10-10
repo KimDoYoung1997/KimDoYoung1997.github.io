@@ -2,6 +2,9 @@
 layout: page
 title: "AboutMe"
 permalink: /aboutme/
+author_profile: true
+sidebar_main: true
+
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Doyoung%20Kim&fontAlignY=36&animation=fadeIn&fontAlign=50&fontSize=50" style="width: 100%;" alt="header">
