@@ -4,8 +4,9 @@ title: "About"
 permalink: /about/
 ---
 
-<!-- ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there~) -->
-![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there~&fontSize=80)
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Doyoung%20Kim&fontAlignY=50&animation=fadeIn" style="width: 100%;" alt="header">
+
+<!-- ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Doyoung%20Kim&fontAlignY=50&animation=fadeIn) -->
 
 ## Notice 🗒️
 > **Welcome to my personal blog!**  
