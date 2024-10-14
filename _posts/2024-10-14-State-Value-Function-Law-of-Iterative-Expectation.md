@@ -1,7 +1,7 @@
 ---
 title: "State Value Function Law of Iterative Expectation"
 author: "Doyoung Kim"
-date: "10/08/2024"
+date: "10/14/2024"
 categories: ReinforcementLearning
 tag: [Reinforcement Learning,Probability,Iterative Expectation] 
 toc: true
