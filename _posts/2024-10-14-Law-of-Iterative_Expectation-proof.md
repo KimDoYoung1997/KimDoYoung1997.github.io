@@ -1,8 +1,8 @@
 ---
 title: "Law of Iterative Expectation proof"
 author: "Doyoung Kim"
-date: "10/08/2024"
-categories: Reinforcement-Learning
+date: "10/08/2024
+categories: ReinforcementLearning
 tag: [Reinforcement Learning,Probability,Iterative Expectation] 
 toc: true
 author_profile: false
