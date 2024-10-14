@@ -1,5 +1,5 @@
 ---
-title: "Generative Adversarial Networks code review"
+title: "Generative Adversarial Networks(GAN) code review"
 author: "김도영"
 date: "10/08/2024"
 categories: Deep Learning
