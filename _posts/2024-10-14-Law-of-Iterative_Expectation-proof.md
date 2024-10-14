@@ -1,13 +1,11 @@
 ---
 title: "Law of Iterative Expectation proof"
 author: "Doyoung Kim"
-date: "10/14/2024"
-categories: ReinforcementLearning
-tag: [ReinforcementLearning,Probability] 
+date: "10/08/2024"
+categories: DeepLearning
+tag: [pytorch, GAN, DeepLearning] 
 toc: true
 author_profile: false
-# sidebar:
-#     nav: "docs"
 ---
 # Law of Iterative Expectation (LIE) - Proof
 
