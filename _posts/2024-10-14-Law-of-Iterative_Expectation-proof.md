@@ -1,13 +1,12 @@
+---
 title: "Law of Iterative Expectation proof"
 author: "Doyoung Kim"
 date: "10/08/2024"
 categories: ReinforcementLearning
-tag: [pytorch, GAN, DeepLearning] 
+tag: [ReinforcementLearning,Probability] 
 toc: true
-
 author_profile: false
 ---
-
 # Law of Iterative Expectation (LIE) - Proof
 
 **Law of Iterative Expectation (LIE)**의 증명은 조건부 기대값의 정의에 기반을 두고 있습니다. 이를 이해하기 위해 먼저 기본 개념을 간단히 정리한 후, 증명 과정을 단계별로 설명하겠습니다.
