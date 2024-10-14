@@ -2,8 +2,8 @@
 title: "Generative Adversarial Networks(GAN) code review"
 author: "김도영"
 date: "10/08/2024"
-categories: Deep Learning
-tag: [pytorch, GAN, Deep Learning] 
+categories: Deep-Learning
+tag: [pytorch, GAN, DeepLearning] 
 toc: true
 author_profile: false
 # sidebar:
