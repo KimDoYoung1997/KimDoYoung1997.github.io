@@ -2,7 +2,7 @@
 title: "Law of Iterative Expectation proof"
 author: "Doyoung Kim"
 date: "10/08/2024"
-categories: DeepLearning
+categories: ReinforcementLearning
 tag: [pytorch, GAN, DeepLearning] 
 toc: true
 author_profile: false
