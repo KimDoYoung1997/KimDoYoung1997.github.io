@@ -20,9 +20,9 @@ author_profile: false
 ## Iterative Expectation의 법칙
 **Law of Iterative Expectation**은 다음과 같이 정의됩니다:
 
-$$
-\mathbb{E}[X] = \mathbb{E}[\mathbb{E}[X | Y]]
-$$
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.image?\mathbb{E}[X]=\mathbb{E}[\mathbb{E}[X|Y]]" />
+</p>
 
 이 법칙은 조건부 기대값의 전체 기대값이 \( X \)의 전체 기대값과 같다는 것을 나타냅니다.
 
