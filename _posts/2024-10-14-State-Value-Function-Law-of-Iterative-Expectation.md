@@ -1,4 +1,3 @@
-
 ---
 title: "State Value Function Law of Iterative Expectation"
 author: "Doyoung Kim"
@@ -8,6 +7,7 @@ tag: [ReinforcementLearning,Probability]
 toc: true
 author_profile: false
 ---
+
 # State Value Function and the Law of Iterative Expectation in Reinforcement Learning
 
 In reinforcement learning, the state value function \(v(s)\) represents the expected return when starting in state \(s\) and following a certain policy. The process of deriving the state value function from the Bellman equation involves the **law of iterative expectation**.
