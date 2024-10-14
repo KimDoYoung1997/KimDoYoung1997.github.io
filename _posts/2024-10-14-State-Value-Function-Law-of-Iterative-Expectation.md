@@ -44,7 +44,7 @@ Now, \(G_{t+1}\) is the future total return from the next state \(S_{t+1}\). By 
 
 ![](https://latex.codecogs.com/svg.image?v(s)=\mathbb{E}[R_{t+1}\mid%20S_t=s]+\gamma%20\mathbb{E}[v(S_{t+1})\mid%20S_t=s])
 
-This is the application of the **law of iterative expectation**: first, we condition on the next state \(S_{t+1}\) and calculate the expected value of \(G_{t+1}\), then we take the expectation over the transition to \(S_{t+1}\).
+This is the application of the **law of iterative expectation**: first, we condition on the next state ![](https://latex.codecogs.com/svg.image?S_{t+1}) and calculate the expected value of \(G_{t+1}\), then we take the expectation over the transition to ![](https://latex.codecogs.com/svg.image?S_{t+1}).
 
 ## 4. Final State Value Function (Bellman Equation)
 Finally, the state value function becomes:
@@ -52,10 +52,10 @@ Finally, the state value function becomes:
 ![](https://latex.codecogs.com/svg.image?v(s)=\mathbb{E}[R_{t+1}\mid%20S_t=s]+\gamma%20\sum_{s'}P(s'\mid%20s,a)v(s'))
 
 Where:
-- \(P(s'\mid%20s,a)\) is the probability of transitioning to state \(s'\) from \(s\) given action \(a\),
+- ![](https://latex.codecogs.com/svg.image?P(s%27\mid%20s,a)) is the probability of transitioning to state \(s'\) from \(s\) given action \(a\),
 - \(v(s')\) is the expected value of the next state \(s'\).
 
 This is the **Bellman equation**, which expresses the value of state \(s\) in terms of the immediate reward and the expected value of the next state.
 
 ## Summary:
-In summary, the **law of iterative expectation** is used in the derivation of the state value function to handle the complexity of future returns. Specifically, it allows us to compute the total expected return by first conditioning on the next state \(S_{t+1}\), and then taking the expectation over possible future states, resulting in the recursive form of the value function.
+In summary, the **law of iterative expectation** is used in the derivation of the state value function to handle the complexity of future returns. Specifically, it allows us to compute the total expected return by first conditioning on the next state ![](https://latex.codecogs.com/svg.image?S_{t+1}), and then taking the expectation over possible future states, resulting in the recursive form of the value function.
