@@ -9,11 +9,14 @@
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
+  // max-width: 1200px;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
-    max-width: $max-width;
+    // max-width: $max-width;
+    max-width: 1700px;    // 여기 바꿔야됨
+
   }
 }
 
