@@ -25,7 +25,7 @@ Instead of using full-width backup like DP, we perform sample backup using actua
 
 When we update the value function through sampling based on the current policy, it's called model-free prediction. If we also update the policy itself, it's called model-free control.
 
-![Sample Backups vs Full Backups](/assets/images/24-11-22-Monte-Carlo-Methods/fig1.png)
+![Sample Backups vs Full Backups](/assets/images/24-11-21-Monte-Carlo-Prediction/fig1.png)
 *Sample backups use actual experience (S, A, R, S') instead of complete MDP dynamics, making them more efficient and practical for real-world applications.*
 
 There are two main approaches to learning through sampling:
@@ -51,7 +51,7 @@ The distinction between Monte Carlo and Temporal Difference lies in the method o
 
 The most basic idea is to calculate the value functions of each state in reverse after experiencing the entire episode and receiving rewards. Therefore, MC (Monte Carlo) cannot be used for episodes that do not end. Starting from the initial state S1 to the terminal state St, if you follow the current policy, you will receive rewards at each time step. You remember those rewards, and when you reach St, you look back and calculate the value function of each state. Below, it says "recall that the return," which is the same as what I mentioned. You can obtain the sample return by discounting the rewards received moment by moment in chronological order.
 
-![MC](/assets/images/24-11-22-Monte-Carlo-Methods/fig2.png)
+![MC](/assets/images/24-11-21-Monte-Carlo-Prediction/fig2.png)
 
 ---
 
@@ -66,7 +66,7 @@ There is one consideration: what if a state is visited twice within a single epi
 
 As the names suggest, First-visit only considers the first visit to a state (ignoring returns for subsequent visits), while Every-visit calculates returns separately for each visit. Both methods converge to the true value function as the number of episodes approaches infinity. However, since First-visit has been more widely studied over a longer period, we will focus on First-visit MC here. Below is material from Professor Silver's class on First-Visit Monte-Carlo Policy Evaluation.
 
-![MC2](/assets/images/24-11-22-Monte-Carlo-Methods/fig3.png)
+![MC2](/assets/images/24-11-21-Monte-Carlo-Prediction/fig3.png)
 
 ---
 
@@ -74,11 +74,11 @@ As the names suggest, First-visit only considers the first visit to a state (ign
 
 The formula for taking the average above can be further developed as follows. Instead of averaging all at once, we calculate the average incrementally, adding one by one, which can be expressed with the Incremental Mean formula below.
 
-![MC3](/assets/images/24-11-22-Monte-Carlo-Methods/fig4.png)
+![MC3](/assets/images/24-11-21-Monte-Carlo-Prediction/fig4.png)
 
 Applying this Incremental Mean to the First-visit MC above, we can express it differently as shown below. Here, as N(St) in the denominator approaches infinity, we can fix it as alpha to effectively take the average. This can be seen as giving less weight to the initial information. (Those familiar with the complementary filter will find this easier to understand.) The reason for doing this is that reinforcement learning is not a stationary problem. Since a new policy is used in each episode (we haven't discussed policy updates yet), it is a non-stationary problem, so the constant used for updates is fixed.
 
-![MC4](/assets/images/24-11-22-Monte-Carlo-Methods/fig5.png)
+![MC4](/assets/images/24-11-21-Monte-Carlo-Prediction/fig5.png)
 
 
 ---
@@ -87,7 +87,7 @@ Applying this Incremental Mean to the First-visit MC above, we can express it di
 
 이러한 MC의 backup과정을 그림으로 나타내면 아래과 같습니다.
 
-![MC Backup Diagram](/assets/images/24-11-22-Monte-Carlo-Methods/fig6.png)
+![MC Backup Diagram](/assets/images/24-11-21-Monte-Carlo-Prediction/fig6.png)
 
 In the backup diagram of DP, only one step is shown, whereas in MC, it extends all the way to the terminal state. Additionally, in DP, the one-step backup branches out to all possible next states, but in MC, due to sampling, it follows a single path to the terminal state.
 

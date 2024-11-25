@@ -50,7 +50,7 @@ In Policy Iteration, the evaluation process must be done until it converges to t
 
 GLIE stands for Greedy in the Limit with Infinite Exploration. Although it is not mentioned in Professor Sutton's book, it was covered in Professor Silver's lecture. It refers to converging to a greedy policy after sufficient exploration during learning. However, epsilon greedy policy does not select only one action greedily, so it is not GLIE in such cases. The optimal policy to be learned through learning is usually a greedy policy. Therefore, if epsilon in epsilon greedy, used due to exploration issues, converges to 0 over time, epsilon greedy can also become GLIE. Later, this issue is resolved by using Q-learning as off-policy control.
 
-![MCC5](/assets/images/24-11-22-Monte-Carlo-Control/fig6.png)
+<!-- ![MCC5](/assets/images/24-11-22-Monte-Carlo-Control/fig6.png) -->
 
 ---
 
