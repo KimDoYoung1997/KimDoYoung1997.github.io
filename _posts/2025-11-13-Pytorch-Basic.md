@@ -469,8 +469,14 @@ torch.tensor([[1,2],[3,4],[5,6]]).reshape(-1)
 ```python
 a = torch.tensor([[1],[3],[5]])
 b = torch.tensor([[2],[4],[6]])
+print(a.shape)
+print(b.shape)
 torch.concat([a,b],axis=1)
 ```
+
+    torch.Size([3, 1])
+    torch.Size([3, 1])
+
 
 
 
@@ -478,6 +484,40 @@ torch.concat([a,b],axis=1)
     tensor([[1, 2],
             [3, 4],
             [5, 6]])
+
+
+
+
+```python
+torch.concat([a,b])
+```
+
+
+
+
+    tensor([[1],
+            [3],
+            [5],
+            [2],
+            [4],
+            [6]])
+
+
+
+
+```python
+torch.concat([a,b],axis=0)
+```
+
+
+
+
+    tensor([[1],
+            [3],
+            [5],
+            [2],
+            [4],
+            [6]])
 
 
 
@@ -493,6 +533,103 @@ torch.concat([a,b],axis=1)
             [3, 4],
             [5, 6]])
 
+
+
+
+```python
+torch.concat([a,b],axis=2)
+```
+
+
+    ---------------------------------------------------------------------------
+
+    IndexError                                Traceback (most recent call last)
+
+    Cell In[36], line 1
+    ----> 1 torch.concat([a,b],axis=2)
+
+
+    IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+
+
+
+```python
+aa = torch.tensor([[1,2],[3,4],[5,6]])  # 3x2   
+bb = torch.tensor([[7,8],[9,0],[10,2]]) # 3x2
+torch.concat([aa,bb])   # 6x2
+```
+
+
+
+
+    tensor([[ 1,  2],
+            [ 3,  4],
+            [ 5,  6],
+            [ 7,  8],
+            [ 9,  0],
+            [10,  2]])
+
+
+
+
+```python
+torch.concat([aa,bb]).shape
+```
+
+
+
+
+    torch.Size([6, 2])
+
+
+
+
+```python
+print(torch.concat([aa,bb],axis=0).shape)
+print(torch.concat([aa,bb],axis=1).shape)
+print(torch.concat([aa,bb],axis=2).shape)
+```
+
+    torch.Size([6, 2])
+    torch.Size([3, 4])
+
+
+
+    ---------------------------------------------------------------------------
+
+    IndexError                                Traceback (most recent call last)
+
+    Cell In[39], line 3
+          1 print(torch.concat([aa,bb],axis=0).shape)
+          2 print(torch.concat([aa,bb],axis=1).shape)
+    ----> 3 print(torch.concat([aa,bb],axis=2).shape)
+
+
+    IndexError: Dimension out of range (expected to be in range of [-2, 1], but got 2)
+
+
+
+```python
+aaa = torch.tensor([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]]) # 2 x 2 x 3
+bbb = torch.tensor([[[13,14,15],[16,17,18]],[[19,20,21],[22,23,24]]]) # 2 x 2 x 3
+print(aaa.shape)
+print(bbb.shape)
+```
+
+    torch.Size([2, 2, 3])
+    torch.Size([2, 2, 3])
+
+
+
+```python
+print(torch.concat([aaa,bbb],axis=0).shape)
+print(torch.concat([aaa,bbb],axis=1).shape)
+print(torch.concat([aaa,bbb],axis=2).shape)
+```
+
+    torch.Size([4, 2, 3])
+    torch.Size([2, 4, 3])
+    torch.Size([2, 2, 6])
 
 
 `-` stack
@@ -501,8 +638,14 @@ torch.concat([a,b],axis=1)
 ```python
 a = torch.tensor([1,3,5])
 b = torch.tensor([2,4,6])
+print(a.shape)
+print(b.shape)
 torch.stack([a,b],axis=1)
 ```
+
+    torch.Size([3])
+    torch.Size([3])
+
 
 
 
@@ -527,158 +670,9 @@ torch.concat([a.reshape(3,1),b.reshape(3,1)],axis=1)
 
 
 
-:::{.callout-warning}
-
-concat과 stack을 지금 처음본다면 아래를 복습하시는게 좋습니다. 
-
-<https://guebin.github.io/PP2024/posts/06wk-2.html#numpy와-축axis>
-:::
-```
-
-***이상한 것***
+note: np.concatenate은 축의 총 갯수를 유지하면서 결합, np.stack은 축의 갯수를 하나 증가시키면서 결합
 
 
-```python
-torch.tensor([[1,2],[3,4],[5,6]]) + torch.tensor([-1,-2])
-```
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]) + torch.tensor([-1,-3,-5])
-```
-
-`-` 행렬곱
-
-***정상적인 행렬곱***
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]) @ torch.tensor([[1],[2]])
-```
-
-
-```python
-torch.tensor([[1,2,3]]) @ torch.tensor([[1,2],[3,4],[5,6]]) 
-```
-
-***잘못된 행렬곱***
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]) @ torch.tensor([[1,2]])
-```
-
-
-```python
-torch.tensor([[1],[2],[3]]) @ torch.tensor([[1,2],[3,4],[5,6]]) 
-```
-
-***이상한 것***
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]) @ torch.tensor([1,2]) # 이게 왜 가능..
-```
-
-
-```python
-torch.tensor([1,2,3]) @ torch.tensor([[1,2],[3,4],[5,6]]) # 이건 왜 가능?
-```
-
-## C. transpose, reshape
-
-`-` transpose 
-
-
-```python
-torch.tensor([[1,2],[3,4]]).T 
-```
-
-
-```python
-torch.tensor([[1],[3]]).T 
-```
-
-
-```python
-torch.tensor([[1,2]]).T 
-```
-
-`-` reshape
-
-***일반적인 사용***
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]).reshape(2,3)
-```
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]])
-```
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]).reshape(1,6)
-```
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]).reshape(6)
-```
-
-***편한 것***
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]).reshape(2,-1)
-```
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]).reshape(6,-1)
-```
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]).reshape(-1,6)
-```
-
-
-```python
-torch.tensor([[1,2],[3,4],[5,6]]).reshape(-1)
-```
-
-## D. concat, stack $(\star\star\star)$
-
-`-` concat 
-
-
-```python
-a = torch.tensor([[1],[3],[5]])
-b = torch.tensor([[2],[4],[6]])
-torch.concat([a,b],axis=1)
-```
-
-
-```python
-torch.concat([a,b],axis=1)
-```
-
-`-` stack
-
-
-```python
-a = torch.tensor([1,3,5])
-b = torch.tensor([2,4,6])
-torch.stack([a,b],axis=1)
-```
-
-
-```python
-torch.concat([a.reshape(3,1),b.reshape(3,1)],axis=1)
-```
 
 :::{.callout-warning}
 
