@@ -2,14 +2,14 @@
 title: "[PyTorch] PyTorch Basic Tutorial"
 author: "Doyoung Kim"
 categories: DeepLearning
-tag: [PyTorch, Deep Learning, Tutorial, Tensor, Matrix] 
+tag: [PyTorch, Deep Learning] 
 toc: true
 author_profile: false
 ---
 
 # 파이토치 기본
 
-## A. torch 
+## A. torch ****
 
 `-` 벡터
 
