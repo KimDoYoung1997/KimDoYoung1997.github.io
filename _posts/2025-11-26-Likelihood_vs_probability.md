@@ -6,6 +6,9 @@ tag: [Probability]
 toc: true
 author_profile: false
 ---
+
+<a href="https://colab.research.google.com/github/KimDoYoung1997/DL2025/blob/main/posts/probability_likelihood.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" style="text-align: left"></a>
+
 # Likelihood (가능도) vs Probability (확률)
 
 ## 질문: 정규분포 N(0,1)에서 -0.95 ~ 0.95 사이에 샘플이 나올 확률을 가능도라고 하나?
